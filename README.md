@@ -47,6 +47,7 @@ EndSection
 - [Auto Move Windows](https://extensions.gnome.org/extension/16/auto-move-windows/) (pre-built)
 - [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
 - [Desktop Icons NG (DING)](https://extensions.gnome.org/extension/2087/desktop-icons-ng-ding/)
+- [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/)
 - [Impatience](https://extensions.gnome.org/extension/277/impatience/)
 - [Panel Date Format](https://extensions.gnome.org/extension/1462/panel-date-format/)
 
