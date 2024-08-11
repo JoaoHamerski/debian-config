@@ -1,13 +1,14 @@
 #export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+export ZSH=$HOME/.oh-my-zsh
 
-fpath=(${ASDF_DIR}/completions $fpath)
-
-source "$HOME/.asdf/asdf.sh"
-
+ZSH_CUSTOM="$HOME/.omz-custom"
 ZSH_THEME="spaceship"
 
+fpath=(${ASDF_DIR}/completions $fpath)
+source "$HOME/.asdf/asdf.sh"
+
 # Zsh config
-source "$HOME/.zsh-config.zsh"
+source "$HOME/.omz-custom/oh-my-zsh.sh"
 
 # Zinit
 source "$HOME/.local/share/zinit/zinit.git/zinit.zsh"
@@ -25,3 +26,6 @@ source /etc/zsh_command_not_found
 
 # Zoxide
 eval "$(zoxide init zsh)"
+
+bindkey '^[[1;5D' backward-word
+bindkey '^[[1;5C' forward-word
