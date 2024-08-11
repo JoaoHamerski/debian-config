@@ -44,6 +44,6 @@ EndSection
 
 ### General
 - Screenshot tool: [Flameshot](https://flameshot.org/)
-- Storage manager `ncdu`: `sudo apt install ncdu`
 - Smart cd command: [Zoxide](https://github.com/ajeetdsouza/zoxide)
+- Storage manager `ncdu`: `sudo apt install ncdu`
 - Icon theme: [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
