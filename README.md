@@ -1,7 +1,7 @@
 ## Personal adjustments for Debian 12 + GNOME
 
 ### Add missing weather location to GNOME
-https://gitlab.com/julianfairfax/scripts/-/blob/main/add-location-to-gnome-weather.sh
+[add-location-to-gnome-weather.sh](https://gitlab.com/julianfairfax/scripts/-/raw/main/add-location-to-gnome-weather.sh)
 
 ### Cursor theme
 Download: [Capitaine Cursors](https://www.gnome-look.org/p/1148692)  
@@ -42,16 +42,8 @@ EndSection
 - [Impatience](https://extensions.gnome.org/extension/277/impatience/)
 - [Panel Date Format](https://extensions.gnome.org/extension/1462/panel-date-format/)
 
-### Flameshot for screenshots
-[Flameshot](https://flameshot.org/)
-
-### Papirus Icon Theme
-[Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
-
-### Storage manager `ncdu`
-```bash
-sudo apt install ncdu
-```
-
-### Zoxide
-[Zoxide](https://github.com/ajeetdsouza/zoxide)
+### General
+- Screenshot tool: [Flameshot](https://flameshot.org/)
+- Storage manager `ncdu`: `sudo apt install ncdu`
+- Smart cd command: [Zoxide](https://github.com/ajeetdsouza/zoxide)
+- Icon theme: [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
