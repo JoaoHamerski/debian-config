@@ -47,6 +47,17 @@ EndSection
 - [Version Manager asdf](https://asdf-vm.com/)
 - [Zoxide](https://github.com/ajeetdsouza/zoxide)
 
+### Desktop entries on Gnome Files:
+#### Remove desktop entries:
+- Comment the entires to be removed in `~/.config/user-dirs.dirs`
+- Add `enabled=false` in `~/.config/user-dirs.conf` (prevent recreating folders)
+- Reboot
+
+#### Add Desktop entry to sidebar:
+```bash
+gsettings set org.gnome.desktop.background show-desktop-icons true
+```
+
 ### Zsh 
 - Install ZSH: https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 - Install Zinit: https://github.com/zdharma-continuum/zinit?tab=readme-ov-file#install
