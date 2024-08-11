@@ -8,6 +8,17 @@ Extract them and place in:
 
 It'll be available on Gnome Tweaks
 
+### Desktop entries on Gnome Files:
+#### Remove desktop entries:
+- Comment the entires to be removed in `~/.config/user-dirs.dirs`
+- Add `enabled=false` in `~/.config/user-dirs.conf` (prevent recreating folders)
+- Reboot
+
+#### Add Desktop entry to sidebar:
+```bash
+gsettings set org.gnome.desktop.background show-desktop-icons true
+```
+
 ### Disable shutdown confirmation
 ```
 gsettings set org.gnome.SessionManager logout-prompt false
@@ -47,16 +58,6 @@ EndSection
 - [Version Manager asdf](https://asdf-vm.com/)
 - [Zoxide](https://github.com/ajeetdsouza/zoxide)
 
-### Desktop entries on Gnome Files:
-#### Remove desktop entries:
-- Comment the entires to be removed in `~/.config/user-dirs.dirs`
-- Add `enabled=false` in `~/.config/user-dirs.conf` (prevent recreating folders)
-- Reboot
-
-#### Add Desktop entry to sidebar:
-```bash
-gsettings set org.gnome.desktop.background show-desktop-icons true
-```
 
 ### Zsh and terminal
 - Dracula Theme: https://draculatheme.com/gnome-terminal
