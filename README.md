@@ -45,3 +45,6 @@ EndSection
 ### Flameshot for screenshots
 [Flameshot](https://flameshot.org/)
 
+### Papirus Icon Theme
+[Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+
