@@ -58,6 +58,21 @@ EndSection
 - [Version Manager asdf](https://asdf-vm.com/)
 - [Zoxide](https://github.com/ajeetdsouza/zoxide)
 
+### SSH config file example
+```bash
+/home/user/.ssh/config
+```
+```bash
+Host hostname
+        HostName 192.168.0.1
+        User username
+        Port 2222
+        IdentityFile /path/to/identity/file
+```
+```bash
+chmod 400 /path/to/identity/file  
+```
+Then `ssh hostname` to connect
 
 ### Zsh and terminal
 - Dracula Theme: https://draculatheme.com/gnome-terminal
