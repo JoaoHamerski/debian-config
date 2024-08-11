@@ -50,6 +50,7 @@ EndSection
 - [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/)
 - [Impatience](https://extensions.gnome.org/extension/277/impatience/)
 - [Panel Date Format](https://extensions.gnome.org/extension/1462/panel-date-format/)
+- [Tray Icons: Reloaded](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/)
 
 ### General
 - Add missing weather location to GNOME: [script.sh](https://gitlab.com/julianfairfax/scripts/-/raw/main/add-location-to-gnome-weather.sh)
