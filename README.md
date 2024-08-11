@@ -16,6 +16,23 @@ It'll be available on Gnome Tweaks
 gsettings set org.gnome.SessionManager logout-prompt false
 ```
 
+### Enable touch-to-click on login screen
+Edit the file: `/usr/share/X11/xorg.conf.d/40-libinput.conf`  
+In the Identifier `libinput touchpad catchall` add the line:
+```
+Option "Tapping" "on"
+```
+
+```bash
+Section "InputClass"
+    Identifier "libinput touchpad catchall"
+    MatchIsTouchpad "on"
+    MatchDevicePath "/dev/input/event*"
+    Driver "libinput"
+    Option "Tapping" "on" # Here
+EndSection
+```
+
 ### Extensions
 - [AATWS (Advanced Alt-Tab Window Switcher)](https://extensions.gnome.org/extension/4412/advanced-alttab-window-switcher/)
 - [Alt+Tab Scroll Workaround](https://extensions.gnome.org/extension/5282/alttab-scroll-workaround/)
