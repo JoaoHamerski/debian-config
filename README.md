@@ -11,6 +11,11 @@ Extract them and place in:
 
 It'll be available on Gnome Tweaks
 
+### Disable shutdown confirmation
+```
+gsettings set org.gnome.SessionManager logout-prompt false
+```
+
 ### Extensions
 - [AATWS (Advanced Alt-Tab Window Switcher)](https://extensions.gnome.org/extension/4412/advanced-alttab-window-switcher/)
 - [Alt+Tab Scroll Workaround](https://extensions.gnome.org/extension/5282/alttab-scroll-workaround/)
