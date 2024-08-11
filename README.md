@@ -48,3 +48,8 @@ EndSection
 ### Papirus Icon Theme
 [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 
+### Storage manager `ncdu`
+```bash
+sudo apt install ncdu
+```
+
