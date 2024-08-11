@@ -3,6 +3,14 @@
 ### Add missing weather location to GNOME
 https://gitlab.com/julianfairfax/scripts/-/blob/main/add-location-to-gnome-weather.sh
 
+### Cursor theme
+Download: [Capitaine Cursors](https://www.gnome-look.org/p/1148692)  
+Extract them and place in:
+- **User**: `/home/user/.icons`
+- **Root**: `/usr/share/icons`
+
+It'll be available on Gnome Tweaks
+
 ### Extensions
 - [AATWS (Advanced Alt-Tab Window Switcher)](https://extensions.gnome.org/extension/4412/advanced-alttab-window-switcher/)
 - [Alt+Tab Scroll Workaround](https://extensions.gnome.org/extension/5282/alttab-scroll-workaround/)
