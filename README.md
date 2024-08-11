@@ -58,6 +58,8 @@ EndSection
 gsettings set org.gnome.desktop.background show-desktop-icons true
 ```
 
-### Zsh 
+### Zsh and terminal
+- Dracula Theme: https://draculatheme.com/gnome-terminal
+- Hack font: https://github.com/source-foundry/Hack/releases
 - Install ZSH: https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 - Install Zinit: https://github.com/zdharma-continuum/zinit?tab=readme-ov-file#install
