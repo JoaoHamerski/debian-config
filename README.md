@@ -45,3 +45,7 @@ EndSection
 - Screenshot tool: [Flameshot](https://flameshot.org/)
 - Smart cd command: [Zoxide](https://github.com/ajeetdsouza/zoxide)
 - Storage manager `ncdu`: `sudo apt install ncdu`
+
+### Zsh 
+- Install ZSH: https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+- Install Zinit: https://github.com/zdharma-continuum/zinit?tab=readme-ov-file#install
