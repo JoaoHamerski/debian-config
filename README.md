@@ -41,11 +41,11 @@ EndSection
 
 ### General
 - Add missing weather location to GNOME: [script.sh](https://gitlab.com/julianfairfax/scripts/-/raw/main/add-location-to-gnome-weather.sh)
-- Icon theme: [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
-- Screenshot tool: [Flameshot](https://flameshot.org/)
-- Smart cd command: [Zoxide](https://github.com/ajeetdsouza/zoxide)
+- [Flameshot](https://flameshot.org/)
+- [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 - Storage manager `ncdu`: `sudo apt install ncdu`
-- Version Manager asdf: [asdf](https://asdf-vm.com/)
+- [Version Manager asdf](https://asdf-vm.com/)
+- [Zoxide](https://github.com/ajeetdsouza/zoxide)
 
 ### Zsh 
 - Install ZSH: https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
