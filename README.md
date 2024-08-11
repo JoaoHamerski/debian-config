@@ -2,7 +2,7 @@
 
 ### Cursor theme
 Download: [Capitaine Cursors](https://www.gnome-look.org/p/1148692)  
-Extract them and place in:
+Extract it and place in:
 - **User**: `/home/user/.icons`
 - **Root**: `/usr/share/icons`
 
