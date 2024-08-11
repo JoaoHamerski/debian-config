@@ -43,7 +43,7 @@ EndSection
 - [Panel Date Format](https://extensions.gnome.org/extension/1462/panel-date-format/)
 
 ### General
+- Icon theme: [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 - Screenshot tool: [Flameshot](https://flameshot.org/)
 - Smart cd command: [Zoxide](https://github.com/ajeetdsouza/zoxide)
 - Storage manager `ncdu`: `sudo apt install ncdu`
-- Icon theme: [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
