@@ -53,3 +53,5 @@ EndSection
 sudo apt install ncdu
 ```
 
+### Zoxide
+[Zoxide](https://github.com/ajeetdsouza/zoxide)
