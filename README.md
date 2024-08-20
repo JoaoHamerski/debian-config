@@ -1,13 +1,18 @@
 ## Personal adjustments for Debian 12 + GNOME
 
-- [Cursor theme](#cursor-theme)
-- [Desktop entries on Gnome Files](#desktop-entries)
-- [Disable shutdown confirmation](#shutdown-confirmation)
-- [Extensions](#extensions)
-- [General](#general)
-- [SSH config file example](#ssh-config)
-- [Zsh and terminal](#terminal)
+- [Customizations](#customizations)
+  - [Cursor theme](#cursor-theme)
+  - [Desktop entries on Gnome Files](#desktop-entries)
+  - [Disable shutdown confirmation](#shutdown-confirmation)
+  - [Extensions](#extensions)
+  - [General](#general)
+  - [Zsh and terminal](#terminal)
+- [Fixes](#fixes)
+  - [add-apt-repository Traceback error](#add-apt-repository)
+- [Tips](#tips)
+    - [SSH config file](#ssh-config)
 
+## Customizations<a name="customizations"></a>
 ### Cursor theme<a name="cursor-theme"></a>
 Download: [Capitaine Cursors](https://www.gnome-look.org/p/1148692)  
 Extract it and place in:
@@ -51,7 +56,21 @@ gsettings set org.gnome.SessionManager logout-prompt false
 - [Version Manager asdf](https://asdf-vm.com/)
 - [Zoxide](https://github.com/ajeetdsouza/zoxide)
 
-### SSH config file example<a name="ssh-config"></a>
+### Zsh and terminal<a name="terminal"></a>
+- Dracula Theme: https://draculatheme.com/gnome-terminal
+- Hack font: https://github.com/source-foundry/Hack/releases
+- Install ZSH: https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+- Install Zinit: https://github.com/zdharma-continuum/zinit?tab=readme-ov-file#install
+
+## Fixes<a name="fixes"></a>
+
+## Tips<a name="tips"></a>
+### add-apt-repository Traceback error<a name="add-apt-repository"></a>
+Source: https://unix.stackexchange.com/questions/746731/add-apt-repository-command-gives-traceback-error
+```bash
+apt install python3-launchpadlib
+```
+### SSH config file<a name="ssh-config"></a>
 ```bash
 /home/user/.ssh/config
 ```
@@ -67,8 +86,4 @@ chmod 400 /path/to/identity/file
 ```
 Then `ssh hostname` to connect
 
-### Zsh and terminal<a name="terminal"></a>
-- Dracula Theme: https://draculatheme.com/gnome-terminal
-- Hack font: https://github.com/source-foundry/Hack/releases
-- Install ZSH: https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
-- Install Zinit: https://github.com/zdharma-continuum/zinit?tab=readme-ov-file#install
+
