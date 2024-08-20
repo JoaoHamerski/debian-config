@@ -64,12 +64,14 @@ gsettings set org.gnome.SessionManager logout-prompt false
 
 ## Fixes<a name="fixes"></a>
 
-## Tips<a name="tips"></a>
 ### add-apt-repository Traceback error<a name="add-apt-repository"></a>
 Source: https://unix.stackexchange.com/questions/746731/add-apt-repository-command-gives-traceback-error
 ```bash
 apt install python3-launchpadlib
 ```
+
+## Tips<a name="tips"></a>
+
 ### SSH config file<a name="ssh-config"></a>
 ```bash
 /home/user/.ssh/config
